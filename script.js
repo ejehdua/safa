@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const systemMessage = document.getElementById('system-message');
 
     let messages = [
-        { text: "וגם", sender: "grandson" }
-        { text: "בגלל", sender: "grandson" },
+        { text: "וגם...", sender: "grandson" }
+        { text: "בגלל...", sender: "grandson" },
         { text: "אבל למה אתה לא מאמין לי?!?!", sender: "grandma" },
-        { text: "אבל סבתא,", sender: "grandson" },
+        { text: "אבל סבתא, ", sender: "grandson" },
     ];
 
     function renderMessages() {
